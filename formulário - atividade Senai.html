@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário </title>
+    <link rel="stylesheet" href="fstyle.css" />
+</head>
+
+<body>
+    
+ <div class="form">
+    <h1>Currículo</h1>
+    <p>Complete as informações a seguir para a inclusão do seu currículo em nossa base de dados</p>
+    <form action="">
+        <fieldset>
+            <legend><b>Dados pessoais</b> </legend>
+            <label for="nome" >Nome Completo* </label>
+                <input type="text" name="nome" id="nome" required  maxlength="100"/>
+            <br>
+
+            <label for="email" >Email*</label>
+              <input type="text" name="email" id="email" required pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9_.+-]+\.[a-zA-Z0-9_.]+$)">
+            <br>
+
+            <label > Celular*</label>
+              <input type="number" name="cel" required>
+            <br>
+            <label >Endereço*</label>
+              <input type="text" name="endereco" required>
+            <br>
+            <label for="CEP">CEP*</label>
+              <input type="number" name="cep" required maxlength="8"/>
+            <br>
+            
+            <label for="data" >Data de nascimento*</label>
+               <input type="date" name="data" required min="2006-01-01"/>          
+        
+        </fieldset>
+        <fieldset>
+            <legend><b>Dados escolares</b></legend>
+            <label for="curso1" > Nome do curso 1*</label>
+             <input type="text" name="curso1" required/>
+             <br>
+
+             <label>Horas*</label>
+              <input type="text" name="horas" required>
+              <br>
+            <label> Mês/Ano de conclusão*</label>
+            <input type="month" name="data" required min="2015-01">
+            <br>
+
+            <label for="curso2" > Nome do curso 2*</label>
+             <input type="text" name="curso2" required/>
+             <br>
+
+             <label>Horas*</label>
+              <input type="text" name="horas" required>
+              <br>
+            <label > Mês/Ano de conclusão*</label>
+            <input type="month" name="data" required min="2015-01">
+            <br>
+
+        </fieldset>
+        <fieldset>
+          <legend><b>Dados profissionais</b></legend>
+          <label > Nome da empresa 1*</label>
+           <input type="text" name="nomeempresa1" required>
+          <br>
+
+          <label> Atual?*</label>
+           <select name="atual">
+            <option value="Não">Não</option>
+             <option value="Sim" selected>Sim</option>
+             
+           </select>
+           <br>
+        <label>Tempo de trabalho</label>
+          <input type="text" name="tempodetrabalho1" required>
+        <br>
+
+          <label >Cargo</label>
+           <input type="text" name="cargo" required>
+          <br>
+          <label> Descrição das atividades</label>
+           <textarea name="descricao">Descreva suas atividades</textarea>
+          <br>
+
+          <label>  Nome da empresa 2*</label>
+          <input type="text" name="nomeempresa2" required>
+         <br>
+
+         <label> Atual?*</label>
+          <select name="atual">
+            <option value="Não">Não</option>
+            <option value="Sim" selected>Sim</option>
+          </select>
+          <br>
+       <label>Tempo de trabalho</label>
+         <input type="text" name="tempodetrabalho1" required>
+       <br>
+
+         <label >Cargo</label>
+          <input type="text" name="cargo2" required>
+         <br>
+         <label > Descrição das atividades</label>
+          <textarea name="descricao">Descreva suas atividades</textarea>
+         <br>
+
+         <label > Nome da empresa 3*</label>
+         <input type="text" name="nomeempresa3" required>
+        <br>
+
+        <label> Atual?*</label>
+         <select name="atual">
+          <option value="Não">Não</option>
+          <option value="Sim" selected >Sim</option>
+          
+         </select>
+         <br>
+      <label >Tempo de trabalho</label>
+        <input type="text" name="tempodetrabalho3" required>
+      <br>
+
+        <label >Cargo</label>
+         <input type="text" name="cargo3" required>
+        <br>
+        <label > Descrição das atividades</label>
+         <textarea name="descricao">Descreva suas atividades</textarea>
+        <br>
+
+        </fieldset>
+        <label for="check">   </label>
+            <input type="checkbox" id="check" required/>
+            Eu autorizo o registro e armazenamento dos meus dados pessoais acima para inclusão no banco de dados.
+        <br>
+        <br>
+        <button>Salvar </button>
+    
+    </form>
+</div>
+    </body>
+</html>
