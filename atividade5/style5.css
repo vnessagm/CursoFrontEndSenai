@@ -1,0 +1,95 @@
+.quadro1 {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    background: linear-gradient(90deg,rgb(49, 115, 186), rgb(158, 122, 230));
+    position: absolute;
+    animation-name: quadro1;
+    animation-duration: 5s ;
+
+}
+@keyframes quadro1 {
+    0% {top: 0px; left: 0px;}
+    25% {top: 0px; left: 100px;}
+    50% {top: 0px; left: 150px; }
+    75% {top:0px; left: 200px;}
+    100% {top:0px; left: 250px;}
+
+    
+}
+
+.quadro1:hover {
+    width: 1350px;
+    height: 150px;
+    margin-top: 50px;
+    background: linear-gradient(90deg,rgb(49, 115, 186), rgb(158, 122, 230));
+    position: absolute;
+   
+}
+
+
+.quadro2 {
+    width: 150px;
+    height: 150px;
+    margin-top: 250px;
+    background: linear-gradient(rgb(186, 49, 158), rgb(99, 40, 218));
+    position: absolute;
+    animation-name: quadro2;
+    animation-duration: 5s ;
+    animation-delay: 5s;
+}
+
+@keyframes quadro2 {
+    0% {top: 0px; left: 0px;}
+    25% {top: 40px;}
+    50% {top: 60px;}
+    75% {top:80px;}
+    100% {top:100px;}
+}
+
+.quadro3{
+    width: 150px;
+    height: 150px;
+    margin-top: 250px;
+    margin-left: 450px;
+    background: linear-gradient(90deg,rgb(80, 1, 80), rgb(138, 32, 225));
+    position: absolute;
+   
+}
+
+.quadro3:hover{
+    width: 150px;
+    height: 150px;
+    margin-top: 250px;
+    margin-left: 450px;
+    border-radius: 200px;
+    background: black;
+    position: absolute;
+    transition: all 4s linear;
+}
+
+.rodape{
+    background: linear-gradient(-90deg,rgb(49, 115, 186), rgb(158, 122, 230));
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.contato{
+    margin-left: 450px;
+}
+
+.nome{
+    background: linear-gradient(-90deg,rgb(49, 115, 186), rgb(158, 122, 230));
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+h1{
+    font-size: 19px;
+    margin-left: 450px;
+}
