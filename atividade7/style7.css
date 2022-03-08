@@ -1,0 +1,58 @@
+*{
+    font-family: 'Fredoka', sans-serif;
+   
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.title h2{
+    color:black ;
+    font-size: 30px;
+}
+
+.title span{
+    color: green; 
+}
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+}
+
+.activities{
+    display: flex;
+    height: 400px;
+   
+
+}
+
+.activity1, .activity2 , .activity3, .activity4, .activity5, .activity6{
+    display: flex;
+    height: 100px;
+    
+    width:100px;
+    background-color: green;
+    margin: 10px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+.activities a {
+    text-decoration: none;
+    color: #fff;
+}
